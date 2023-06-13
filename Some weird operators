@@ -1,0 +1,19 @@
+# division vs floor division
+#   /   vs  //
+# divison returns the exact result in a floating point form
+# floor division returns the nearest whole integer point value rounded down
+
+print(10 / 3)
+
+print(10 // 3)
+
+# modulus operator
+# returns the remainder of two divided number
+# great way to create intervals inside a loop
+
+print(10 % 3)
+
+# exponent operator **
+# literally just how you write an exponent
+
+print(10**3)
