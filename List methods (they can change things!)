@@ -1,0 +1,10 @@
+# List methods (they can change things!)
+
+numbers = [1,2,3,4,5]
+numbers.append(6)       # adds things to the end of the list
+numbers.insert(0, -1)   # specifies position within the list "0" and the thing you are adding "-1"
+numbers.remove(3)       # removes the specified thing from the list
+print(numbers)
+
+print(1 in numbers)     # checks to see if "1" is in the list
+print(len(numbers))     # checks the length of the list
