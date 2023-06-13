@@ -1,0 +1,14 @@
+#### augmented assignment operator python AKA
+# an operator that is used to assign a value to a variable
+x = 10
+print(x + 3)
+
+# These cannot be put inside a print statment. Print statements
+# cannot have variable reassignemnts in them which is what
+# all of these operators are doing
+# x += 3
+# x -= 3
+# x /= 3
+# x *= 3
+
+# so print(x *= 3) doesn't work
