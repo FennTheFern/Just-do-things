@@ -1,0 +1,19 @@
+def weight_conversion():
+
+    weight = float(input("weight: "))
+
+    type = input("(K)g or (L)bs: ")
+    print(type)
+
+    if type == "l" or type == "L":  # Convert Kg to lbs
+        answer = float(weight) * 2.20
+        print("Your weight in Pounds is "+ str(answer))
+
+    elif type == "k" or type == "K": # Convert lbs to Kg
+        answer = float(weight) * 0.45
+        print("Your weight in Kilograms is "+ str(answer))
+
+    else:
+        print("Input invalid")
+
+weight_conversion()
