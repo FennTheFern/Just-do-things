@@ -1,0 +1,12 @@
+# comparison operators
+#   >
+#   >=
+#   <
+#   <=
+#   ==
+#   !=
+
+x = 3 > 2
+print(x)
+# These all produce boolean outcomes, in this instance
+# it is TRUE
