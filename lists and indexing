@@ -1,0 +1,25 @@
+# Lists and indexing
+
+# the [] lets you choose what part of the list you'd like to look at
+# a [0] refers to the first thing in a list,
+names =["Jojo", "bob", "milly"]
+print(names[0])
+# prints out Jojo
+# conversely [-1] is the last thing in a list.
+names =["Jojo", "bob", "milly"]
+print(names[-1])
+# prints out milly
+
+# redoing parts of the list is possible:
+
+names =["Jojo", "bob", "milly"]
+names[0] = "John"
+print(names)
+# prints out ['John', 'bob', 'milly']
+
+# we can also select a range from the list,
+# [start index: end index] the end index is not included in the selection
+# this does not modify the original list in any way
+names =["Jojo", "bob", "milly"]
+print(names[0:2])
+# prints ['Jojo', 'bob']
