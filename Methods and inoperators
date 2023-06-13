@@ -1,0 +1,20 @@
+# Methods do not work on anything other than objects, or
+
+
+# .find looks for what ever you input
+# and then gives you the index of that first instance
+course = "Python for Beginners"
+print(course.find('n'))
+# This spits out 5 since the 'n' in Python is the first instance
+
+
+bob = 'Python for Beginners'
+print(bob.replace('for','4'))
+# This spits out the string "Python 4 Beginnners"
+
+# Inoperators as much more helpful since they can be used for
+# most anything
+inoperators = "Python for Beginners"
+print("Python" in inoperators)
+# Gives a boolean answer of TRUE or FALSE, in this case
+# it comes out as TRUE
