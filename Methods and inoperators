@@ -12,7 +12,7 @@ bob = 'Python for Beginners'
 print(bob.replace('for','4'))
 # This spits out the string "Python 4 Beginnners"
 
-# Inoperators as much more helpful since they can be used for
+# logical operators are much more helpful since they can be used for
 # most anything
 inoperators = "Python for Beginners"
 print("Python" in inoperators)
