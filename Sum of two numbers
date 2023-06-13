@@ -1,0 +1,5 @@
+#Sum of two numbers
+print("find the sum of two numbers!")
+num_1 = input("First number: ")
+num_2 = input("Second number: ")
+print(float(num_2) + float(num_1))
