@@ -1,0 +1,7 @@
+#logical operators
+#   and     meaning BOTH must be TRUE
+#   or      meaning at least ONE must be TRUE
+#   not     meaning NONE must be TRUE
+
+price = 25
+print(price > 10 and price < 30)
