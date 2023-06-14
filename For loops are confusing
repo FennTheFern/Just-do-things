@@ -1,0 +1,13 @@
+# For loops
+# they do this thing called iteration. iterating over a sequence
+# what is iterating over something?
+numbers = [1,2,3,4,5]
+for item in numbers:
+    print(item)
+
+#While loop that does that exact same thing as the for loop above
+
+i = 0
+while i < len(numbers):
+    print(numbers [i])
+    i += 1
