@@ -1,0 +1,17 @@
+# range() function
+# range(#) if there is one number then the range will count from 0 to that number (not including the number)
+# range (#, #) if there are two numbers then the range will be from the first number to second (not including the second number)
+# range (#, #, #) if there are three, then the first two act as above but the third number will specify the "jump" you make
+# cont. for example range(5, 10, 2) starts at "5" then +2 as the third number is "7" and +2 again means "9".
+
+numbers = range(5)
+for number in numbers:
+    print(number)
+
+bob = range(-8,10)
+for number in bob:
+    print(number)
+
+Margret = range(5, 10, 2)
+for number in Margret:
+    print(number)
