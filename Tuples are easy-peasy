@@ -1,0 +1,6 @@
+# Tuples
+# store objects and are immutable (cannot be changed)
+# that would be why you would use it rather than a list
+
+numbers = (1,2,3)   # <---- this is a tuple
+print(numbers)
