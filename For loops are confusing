@@ -1,6 +1,6 @@
 # For loops
 # they do this thing called iteration. iterating over a sequence
-# what is iterating over something?
+# Iteration is: a sequence of instructions or code being repeated until a specific end result is achieved.
 numbers = [1,2,3,4,5]
 for item in numbers:
     print(item)
